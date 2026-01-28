@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --car-color-bg-primary: #FFFFFF;
+    --car-color-bg-secondary: #F78B00;
+
+    --car-color-font-primary: #00285F;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+html, body {
+    background-color: var(--car-color-bg-primary);
+}
+
+main {
+    padding: 0 20px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/* generic styles */
+
+.car-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}

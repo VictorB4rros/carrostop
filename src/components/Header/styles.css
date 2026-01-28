@@ -1,0 +1,7 @@
+.car-header {
+    background-color: var(--car-color-bg-secondary);
+    color: var(--car-color-font-primary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}

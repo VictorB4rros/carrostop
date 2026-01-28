@@ -1,0 +1,35 @@
+.car-search-bar {
+    height: 40px;
+    display: flex;
+    color: var(--car-color-font-secondary);
+}
+
+.car-search-bar button {
+    border: none;
+    width: 77px;
+    background-color: var(--car-color-bg-tertiary);
+    border-radius: 0 5px 5px 0;
+    color: var(--car-color-font-quaternary);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.car-search-bar input {
+    border-left: none;
+    border-right: none;
+    padding: 0 15px;
+    font-size: 14px;
+    color: var(--car-color-font-tertiary);
+    border: 1px solid var(--car-color-font-secondary);
+    border-radius: 5px 0 0 5px;
+    width: calc(100% - 77px);
+}
+
+.car-search-bar input:focus {
+    outline: none;
+}
+
+.car-search-bar input::placeholder {
+    color: var(--car-color-font-secondary);
+}

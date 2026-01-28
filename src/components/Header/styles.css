@@ -5,3 +5,14 @@
     display: flex;
     align-items: center;
 }
+
+.car-header h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+@media (min-width: 992px) {
+    .car-header h1 {
+        margin-left: 0;
+    } 
+}

@@ -3,8 +3,12 @@
 :root {
     --car-color-bg-primary: #FFFFFF;
     --car-color-bg-secondary: #F78B00;
+    --car-color-bg-tertiary: #00285F;
 
     --car-color-font-primary: #00285F;
+    --car-color-font-secondary: #A7A7A7;
+    --car-color-font-tertiary: #000;
+    --car-color-font-quaternary: #FFFFFF;
 }
 
 * {
@@ -32,6 +36,6 @@ main {
 
 .car-container {
     width: 100%;
-    max-width: 960px;
+    max-width: 979px;
     margin: 0 auto;
 }

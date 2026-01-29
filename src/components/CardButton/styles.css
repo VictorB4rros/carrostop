@@ -1,0 +1,16 @@
+.car-button {
+    display: flex;
+    height: 40px;
+    width: 257.93px;
+}
+
+.car-button button {
+    width: 100%;
+    border: none;
+    background-color: var(--car-color-bg-tertiary);
+    color: var(--car-color-font-quaternary);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}

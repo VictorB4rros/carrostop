@@ -45,3 +45,27 @@ main {
 .car-mb40 {
     margin-bottom: 40px;
 }
+
+.car-mb20 {
+    margin-bottom: 20px;
+}
+
+.car-mt20 {
+    margin-top: 20px;
+}
+
+.car-mb15 {
+    margin-bottom: 15px;
+}
+
+.car-mt15 {
+    margin-top: 15px;
+}
+
+.car-mb10 {
+    margin-bottom: 10px;
+}
+
+.car-mt10 {
+    margin-top: 10px;
+}

@@ -5,15 +5,15 @@ import CardButton from '../CardButton';
 export default function CatalogCard() {
     return (
         <div className="car-card">
-            <div>
+            <div className="car-card-image">
                 <img src={carImg} alt="Car" />
             </div>
-            <div>
-                <h4>Audi Supra TT</h4>
-                <h3>
+            <div className="car-card-text">
+                <h2>Audi Supra TT</h2>
+                <h4>
                     Lorem ipsum dolor sit amet, consectetur 
                     adipisicing elit. Cupiditate, nisi
-                </h3>
+                </h4>
             </div>
             <CardButton />
         </div>

@@ -1,6 +1,5 @@
 .car-card {
     height: 347px;
-    width: 300px;
     background-color: var(--car-color-bg-quaternary);
     border-radius: 10px;
     display: flex;
@@ -25,20 +24,12 @@
 }
 
 @media (min-width: 576px) {
-    .car-card {
-        width: 258px;
-    }
-
     .car-card-text h4 {
         font-size: 12px;
     }
 }
 
 @media (min-width: 992px) {
-    .car-card {
-        width: 306px;
-    }
-
     .car-card-text h4 {
         font-size: 14px;
     }

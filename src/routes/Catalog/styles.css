@@ -4,6 +4,18 @@
 
 .car-catalog-cards {
     display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(253px, 1fr));
+}
+
+@media (min-width: 576px) {
+    .car-catalog-cards {
+        gap: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .car-catalog-cards {
+        gap: 30px;
+    }
 }

@@ -13,6 +13,14 @@ export default function Catalog() {
                     <SearchBar />
                     <div className="car-catalog-cards">
                         <CatalogCard />
+                        <CatalogCard />
+                        <CatalogCard />
+                        <CatalogCard />
+                        <CatalogCard />
+                        <CatalogCard />
+                        <CatalogCard />
+                        <CatalogCard />
+                        <CatalogCard />
                     </div>
                 </section>
             </main>
